@@ -39,6 +39,7 @@ export class Service{
     
     }
 
+    
     updateDetails(data) {
         console.log("Inside Update User Details Service");
         var info = JSON.stringify(data);
