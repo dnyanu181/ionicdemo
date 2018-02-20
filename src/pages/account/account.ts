@@ -83,6 +83,7 @@ export class AccountPage {
     this.service.updateDetails(updatedValue);
   }
 
+  
   getUsername() {
     this.userData.getUsername().then((username) => {
       this.username = username;
